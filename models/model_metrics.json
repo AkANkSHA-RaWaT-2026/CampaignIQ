@@ -1,0 +1,63 @@
+{
+  "best_model": "Random Forest",
+  "roi_target": 1.0,
+  "auto_fallback": false,
+  "baseline_accuracy": 0.521505376344086,
+  "n_train": 1487,
+  "n_test": 372,
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.8413978494623656,
+      "precision": 0.8770949720670391,
+      "recall": 0.8092783505154639,
+      "f1": 0.8418230563002681,
+      "roc_auc": 0.907766709139349,
+      "cv_roc_auc": 0.8871357901526007,
+      "confusion": [
+        [
+          156,
+          22
+        ],
+        [
+          37,
+          157
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.8306451612903226,
+      "precision": 0.8786127167630058,
+      "recall": 0.7835051546391752,
+      "f1": 0.8283378746594006,
+      "roc_auc": 0.8962701262597011,
+      "cv_roc_auc": 0.8969495111884935,
+      "confusion": [
+        [
+          157,
+          21
+        ],
+        [
+          42,
+          152
+        ]
+      ]
+    }
+  },
+  "channels": [
+    "Email",
+    "Influencer",
+    "Search Ads",
+    "Social Media",
+    "TV/Print"
+  ],
+  "segments": [
+    "Families",
+    "Seniors",
+    "Small Business Owners",
+    "Students",
+    "Young Professionals"
+  ],
+  "spend_min": 8562.73,
+  "spend_median": 134078.29,
+  "spend_max": 1000000.0
+}

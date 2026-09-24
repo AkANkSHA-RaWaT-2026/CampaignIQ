@@ -1,0 +1,14 @@
+# Virtual environment: never commit it, it is huge and machine-specific
+venv/
+# Python bytecode caches
+__pycache__/
+*.pyc
+# Notebook autosaves
+.ipynb_checkpoints/
+# Data files: the Kaggle CSV is 27 MB and regenerable, so keep it out of Git
+data/raw/*.csv
+data/processed/*.csv
+# Secrets (for the optional LLM API key in Step 9)
+.env
+# macOS junk
+.DS_Store
